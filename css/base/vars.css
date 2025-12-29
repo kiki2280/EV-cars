@@ -1,0 +1,14 @@
+:root {
+    /* colors */
+    --primary-color: #000000;
+    --secondary-color:#E9FF61;
+    --subtext-color:#999999;
+    --white-transparent1:rgba(255, 255, 255, 0.5);
+    --white-transparent2:rgba(255, 255, 255, 0.5);
+    --background-color1:#FFFFFF;
+    --background-color2:#EDF2F6;
+    --background-color3:#E9E9E9;
+    /* fonts */
+    --font-famaly: "Syne", sans-serif;
+}
+

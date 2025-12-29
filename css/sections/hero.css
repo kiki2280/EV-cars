@@ -1,0 +1,25 @@
+.hero {
+    padding-top: 32px;
+}
+
+.hero__picture {
+
+}
+.hero__details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: clamp(2rem, 0.5rem + 7.5vw, 6.125rem);
+    flex-wrap: wrap;
+    gap: 50px;
+    border-top: 1px solid var(--background-color3);
+    padding-top:clamp(2rem, 1.023rem + 4.89vw, 4.688rem);
+}
+
+@media (max-width: 998px)  {
+    .hero__details {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 22px 32px;
+    }
+}

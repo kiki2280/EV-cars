@@ -1,0 +1,36 @@
+.figure {
+    position: relative;
+    padding: 98px 0;
+    font-weight: 600;
+    font-size: 12vw;
+    letter-spacing: 0.04em;
+    text-align: center;
+}
+.figure__line1 {
+    color: var(--primary-color);
+    
+    -webkit-text-stroke: 5px var(--primary-color);
+}
+.figure__line2 {
+    color: var(--background-color3);
+    
+    -webkit-text-stroke: 5px var(--background-color3);
+}
+.figure__img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%, -50%);
+
+    width: 40vw;
+}
+
+@media (max-width:768px ) {
+
+    .figure__line1 {
+        -webkit-text-stroke: 0px var(--primary-color);
+    }
+    .figure__line2 {
+        -webkit-text-stroke: 0px var(--background-color3);
+    }
+}

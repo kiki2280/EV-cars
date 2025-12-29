@@ -1,0 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=Syne:regular,500,600,700,800);
+
+/* base */
+@import "./base/rezet.css";
+
+@import "./base/vars.css";
+
+@import "./base/base.css";
+
+/* sections */
+@import "./sections/hero.css" ;
+@import "./sections/features.css" ;
+
+/* blocks */
+@import "./blocks/nav.css" ;
+
+@import "./blocks/button.css" ;
+@import "./blocks/detail.css" ;
+@import "./blocks/figure.css" ;
+@import "./blocks/section-title.css" ;
+

@@ -2,25 +2,34 @@
     padding: clamp(2rem, -0.182rem + 10.91vw, 8rem);
 }
 
-.futers__header {
+.featers__header {
     margin-bottom: clamp(1.25rem, 0.682rem + 2.84vw, 2.813rem);
 
 }
 
-.fuaters__grid {
+.featers__grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
     gap: 20px;
+    max-width: 1150px;
 }
 
 
 @media (max-width: 998px) {
-    .fuaters__grid {
+    .featers__grid {
         gap: 10px;
     }
 }
+
+@media (max-width: 590px) {
+    .featers__grid {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 30px;
+    }
+}
+
 @media (max-width: 480px) {
-    .fuaters__grid {
+    .featers__grid {
     grid-template-columns: 1fr ;
         row-gap: 30px;
     }

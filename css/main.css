@@ -10,6 +10,7 @@
 /* sections */
 @import "./sections/hero.css" ;
 @import "./sections/features.css" ;
+@import "./sections/story.css" ;
 
 /* blocks */
 @import "./blocks/nav.css" ;
@@ -17,6 +18,8 @@
 @import "./blocks/button.css" ;
 @import "./blocks/detail.css" ;
 @import "./blocks/figure.css" ;
-@import "./blocks/section-title.css" ;
+@import "./blocks/tag.css" ;
+@import "./blocks/title.css" ;
 @import "./blocks/card.css" ;
 
+ 

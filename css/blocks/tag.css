@@ -1,0 +1,12 @@
+.tag {
+    display: inline-block;
+    /* margin-bottom: 16px; */
+
+    padding: 10px 20px;
+
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: var(--primary-color);
+    background: var(--background-color2);
+}

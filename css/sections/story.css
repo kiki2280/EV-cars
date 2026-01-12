@@ -37,3 +37,11 @@
     }
 
 }
+
+@media (max-width: 480px) {
+    .story__grid {
+    display: grid;
+    grid-template-columns: 1fr ;
+}
+
+}

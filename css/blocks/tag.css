@@ -5,8 +5,31 @@
     padding: 10px 20px;
 
     font-weight: 400;
-    font-size: 18px;
+    font-size: clamp(0.875rem, 0.87rem + 0.34vw, 1.125rem);
     text-align: center;
     color: var(--primary-color);
     background: var(--background-color2);
+}
+
+.tag--white {
+    color: var(--background-color1);
+    background: var(--white-transparent2);
+}
+
+.tag--black {
+    color: var(--background-color1);
+    background: var(--primary-color);
+    padding: 6px 10px;
+
+    max-width: fit-content;
+}
+
+@media (max-width: 922px) {
+    .tag {
+        padding: 8px 12px;
+    } 
+
+    .tag--black {
+        padding: 5px 8px;
+    }
 }

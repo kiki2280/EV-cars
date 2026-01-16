@@ -5,3 +5,7 @@
     color: var(--primary-color);
 
 }
+
+.title--white {
+    color: var(--background-color1);
+}

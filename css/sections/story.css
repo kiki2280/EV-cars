@@ -1,8 +1,10 @@
 .story {
+    margin-bottom: clamp(1.875rem, 1.75rem + 8.33vw, 8rem);
 }
 .story__header {
     text-align: left;
     margin-bottom:clamp(1.25rem, 0.341rem + 4.55vw, 3.75rem);
+    padding-bottom: clamp(2rem, 1.878rem + 8.16vw, 8rem);
 }
 
 .story__header-title-wrapper {
@@ -15,7 +17,7 @@
 .story__header-desc {
     max-width: 334px;
     font-weight: 400;
-    font-size: 18px;
+    font-size: clamp(0.875rem, 0.87rem + 0.34vw, 1.125rem);
     color:var(--subtext-color);
 }
 

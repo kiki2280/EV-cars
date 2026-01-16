@@ -1,0 +1,25 @@
+.swiper {
+
+    --swiper-pagination-bullet-size: 10px;
+    --swiper-pagination-color: #000;
+    --swiper-pagination-bullet-inactive-opacity: 1;
+    --swiper-pagination-bullet-inactive-color: var(--subtext-color);
+    --swiper-pagination-bottom: 0px;
+
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+.swiper-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    aspect-ratio: 467 / 321;
+}
+
+@media (max-width: 768px) {
+    .swiper {
+    --swiper-pagination-bullet-size: 8px;
+    --swiper-pagination-bullet-horizontal-gap: 3px;
+    }
+}

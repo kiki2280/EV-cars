@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EV Cars</title>
+    <link
+    rel="stylesheet" href="./libs/swiper/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./css/main.css">
 </head>
 
@@ -29,10 +31,26 @@
                                 <path d="M17 14L47 32L17 50V14Z" fill="black" />
                             </symbol>
                         </svg>
+
+                        <svg>
+                            <symbol id="battery" viewBox="0 0 38 61" fill="none">
+                                <path d="M35.0488 5.16529H27.1332V1.89999C27.1332 0.850655 26.2826 0 25.2332 0H12.4358C11.3865 0 10.5359 0.850655 10.5359 1.89999V5.16529H2.62029C1.24515 5.16529 0 6.2873 0 7.77873V58.1797C0 59.5548 1.12201 60.8 2.62029 60.8H35.0488C36.4239 60.8 37.6691 59.678 37.6691 58.1797V7.65559C37.6691 6.2873 36.4239 5.16529 35.0488 5.16529ZM28.1937 32.8595L13.8471 48.328L17.9645 36.3269L9.3523 32.8595L23.5757 17.391L18.7676 28.898L28.1937 32.8595Z" fill="white" />
+                            </symbol>
+                        </svg>
+
+                        <svg> 
+                            <symbol id="logo" viewBox="0 0 512 512" fill="none" >
+                                <path d="M512 256C512 397.385 397.385 512 256 512C114.615 512 0 397.385 0 256C0 114.615 114.615 0 256 0C397.385 0 512 114.615 512 256Z" fill="#E9FF61" />
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M258.997 412.694C345.592 412.694 415.791 342.495 415.791 255.9C415.791 169.305 345.592 99.106 258.997 99.106C172.402 99.106 102.203 169.305 102.203 255.9C102.203 342.495 172.402 412.694 258.997 412.694ZM258.997 431.87C356.183 431.87 434.967 353.086 434.967 255.9C434.967 158.714 356.183 79.9298 258.997 79.9298C161.812 79.9298 83.027 158.714 83.027 255.9C83.027 353.086 161.812 431.87 258.997 431.87Z" fill="black" />
+                                <path d="M222.202 445.218L250.92 283.73H178.9L295.792 66.5793L267.075 219.049H339.094L222.202 445.218Z" fill="black" />
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M243.246 456.095L198.88 441.071L222.647 307.418H139.247L274.934 55.3514L319.071 70.9639L295.641 195.361H378.002L243.246 456.095ZM267.075 219.049L295.792 66.5793L178.9 283.73H250.92L222.202 445.218L339.094 219.049H267.075Z" fill="#E9FF61" />
+                            </symbol>
+                        </svg>
+                        
                         
 
     
-    <header class="hero none">
+    <header class="hero none ">
         <div class="container container--wide">
             <nav class="nav">
                 <a class="nav__logo" href="#">
@@ -72,7 +90,7 @@
         </div>
     </header>
     
-    <div class="container none">
+    <div class="container none ">
         <div class="hero__picture">
             <div class="figure">
                     <div class="figure__line1">SMOOTH </div>
@@ -96,7 +114,7 @@
                 </div>
             </div>
     </div>
-    <section class="featers none">
+    <section class="featers none ">
         <div class="container">
             <header class="featers__header ">
                 <div class="tag">Versatile Power</div>
@@ -147,7 +165,7 @@
         </div>
     </section>
 
-    <section class="story">
+    <section class="story none">
         <div class="container">
             <header class="story__header section-title">
                 <div class="tag">Our Story</div>
@@ -164,6 +182,7 @@
                 </div>
             </header>
 
+            <!-- Story Grid -->
             <div class="story__grid">
 
                 <article class="card-media">
@@ -202,8 +221,161 @@
                 </article>
 
             </div>
+
+
         </div>
     </section>
+
+    <section class="power none">
+        <div class="container">
+            <header class="power__header">
+                <div class="tag tag--white">Versatile Power</div>
+                <h2 class="title title--white">Revolutionizing EV Mobility</h2>
+            </header>
+                <div class="grid">
+                    <article class="power__card card-a">
+                        <div class="power__card-header">
+                            <div class="power__card-header-text">
+                                <h3 class="power__card-title">
+                                What<br>People Say
+                                </h3>
+                                <p class="power__card-suptitle">Sold to over 20M</p>
+                            </div>
+
+                            <svg class="icon-logo" width="74" height="74">
+                                <use href="#logo"></use>
+                            </svg>
+                            </div>
+                        <div class="power__card-bottom">
+                            <div class="power__card-bottom-left">
+                                <img src="./img/power/pepole.png" alt="" class="power__card-bottom-img">
+                                <p class="power__card-bottom-suptitle">3,000+ Thrilled EV Owners</p>
+                            </div>
+
+                            <div class="tag tag--white">$50k+</div>
+                        </div>
+                    </article>
+
+                    <article class="power__card card-b">
+                        <div class="power__card-header-b">
+                            <svg  width="42" height="42">
+                                <use href="#logo"></use>
+                            </svg>
+                            <p class="card-b__suptitle">EV Voltedge</p>
+                        </div>
+                        
+                        <div class="power__card-bottom">
+                            <h2 class="card-b__title">ELECTRIC<br>MOBILITY</h2>
+                        </div>
+                    </article>
+
+                    <article class="power__card card-c">
+                    <div class="tag tag--black">evoltage.com</div>
+                        <div class="power__card-bottom-c">
+                            <div class="card-c__title">500+</div>    
+                            <p class="card-c__suptitle">Miles Per Charge</p>
+                        </div>
+                    </article>
+
+                    <article class=" card-d">
+                        <img class="card-d__img" src="./img/power/card4.jpg" srcset="./img/power/card4@2x.jpg 2x" alt="">
+                    </article>
+
+                    <article class="power__card card-e">
+                        <div class="power__card-header">
+                            <svg class="icon-battery" width="38" height="61">
+                                <use href="#battery"></use>
+                            </svg>
+                        </div>
+                            
+                        <div class="power__card-bottom">
+                            <p class="card-e__title">Empowering Sustainable Mobility<br>Through Innovation</p>
+                        </div>
+                    </article>
+                </div>
+        </div>
+    </section>
+
+    <section class="gallery none">
+        <div class="container">
+            <header class="gallery__header">
+                <div class="tag">Versatile Power</div>
+                <h2 class="title">Future-Ready Comfort</h2>
+            </header>
+        </div>
+
+        <!-- Swiper Gallery -->
+            <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <img class="swiper-img" src="./img/gallery/01.jpg" srcset="./img/gallery/01@2x.jpg 2x" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="swiper-img" src="./img/gallery/02.jpg" srcset="./img/gallery/02@2x.jpg 2x" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="swiper-img" src="./img/gallery/03.jpg" srcset="./img/gallery/03@2x.jpg 2x" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="swiper-img" src="./img/gallery/01.jpg" srcset="./img/gallery/01@2x.jpg 2x" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="swiper-img" src="./img/gallery/02.jpg" srcset="./img/gallery/02@2x.jpg 2x" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="swiper-img" src="./img/gallery/03.jpg" srcset="./img/gallery/03@2x.jpg 2x" alt="">
+                </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            </div>
+
+    </section>
+
+    <section class="book">
+        <div class="container">
+            <div class="book__grid">
+                <div class="book__form-wrapper">
+                    <h2 class="book__form__title">Reserve Your EV Today!</h2>
+                    <form class="form">
+                        <!-- row 1 -->
+                        <div class="form__row">
+                            <div class="form__input-wrapper">
+                                <label for="firstName" class="label">First Name</label>
+                                    <input type="text" class="input" id="firstName"  autocomplete="off">
+                            </div>
+                            <div class="form__input-wrapper">
+                                <label for="lastName" class="label">Last Name</label>
+                                    <input type="text" class="input" id="lastName" autocomplete="off">
+                            </div>
+                        </div>
+                        <!-- row 2 -->
+                            <div class="form__input-wrapper">
+                                <label for="email" class="label">Email ID</label>
+                                    <input type="text" class="input" id="email"  autocomplete="off">
+                            </div>
+                        <!-- row 3 -->
+                            <div class="form__input-wrapper">
+                                <label for="message" class="label">Message</label>
+                                <textarea name="message" class="textarea" id="message"></textarea>
+                            </div>
+                            <button class="button" type="submit">Book Now</button>
+                    </form>
+                </div>
+                <div class="book__img-wrapper">
+                    <img src="./img/book/car.png" srcset="./img/book/car@2x.png 2x" alt="">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    
+
+    <script src="./libs/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
 
 
 </body>

@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>EV Cars</title>
     <link
     rel="stylesheet" href="./libs/swiper/swiper-bundle.min.css"/>
@@ -337,7 +338,7 @@
 
     <section class="book">
         <div class="container">
-            <div class="book__grid">
+            <div class="book__wrapper">
                 <div class="book__form-wrapper">
                     <h2 class="book__form__title">Reserve Your EV Today!</h2>
                     <form class="form">
@@ -345,24 +346,24 @@
                         <div class="form__row">
                             <div class="form__input-wrapper">
                                 <label for="firstName" class="label">First Name</label>
-                                    <input type="text" class="input" id="firstName"  autocomplete="off">
+                                    <input type="text" class="input" id="firstName" placeholder="John" autocomplete="off">
                             </div>
                             <div class="form__input-wrapper">
                                 <label for="lastName" class="label">Last Name</label>
-                                    <input type="text" class="input" id="lastName" autocomplete="off">
+                                    <input type="text" class="input" id="lastName" placeholder="Doe" autocomplete="off">
                             </div>
                         </div>
                         <!-- row 2 -->
                             <div class="form__input-wrapper">
                                 <label for="email" class="label">Email ID</label>
-                                    <input type="text" class="input" id="email"  autocomplete="off">
+                                    <input type="text" class="input" id="email" placeholder="Field email goes here" autocomplete="off">
                             </div>
                         <!-- row 3 -->
                             <div class="form__input-wrapper">
                                 <label for="message" class="label">Message</label>
-                                <textarea name="message" class="textarea" id="message"></textarea>
+                                <textarea name="message" class="textarea" id="message" placeholder="Message"></textarea>
                             </div>
-                            <button class="button" type="submit">Book Now</button>
+                            <button class="button button--order" type="submit">Book Now</button>
                     </form>
                 </div>
                 <div class="book__img-wrapper">

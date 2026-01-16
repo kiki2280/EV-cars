@@ -28,3 +28,16 @@
     width: 14px;
     height: 14px;
 }
+
+.button--order {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    transition: background-color 0.2s ease-in, color 0.2s ease-in;
+}
+
+
+.button--order:hover,
+.button--order:focus {
+    background:var(--secondary-color);
+        color: var(--primary-color);
+}

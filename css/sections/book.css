@@ -1,13 +1,45 @@
 .book {
-    padding-top: 128px;
+    padding-top: clamp(1.875rem, 1.75rem + 8.33vw, 8rem) 0;
 }
-.container {
-}
-.book__grid {
+
+.book__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    
 }
 .book__form-wrapper {
+    width: 505px;
+    flex-grow: 1;
+    flex-shrink: 0;
+
 }
+
+.book__img-wrapper {
+    flex-grow: 0;
+}
+
 .book__form__title {
+    margin-bottom: clamp(1rem, 0.98rem + 1.36vw, 2rem);
+    font-weight: 400;
+    font-size:clamp(2rem, 1.987rem + 0.85vw, 2.625rem);
+    color: var(--primary-color);
 }
 .form {
+} 
+
+
+
+@media (max-width: 992px) {
+    .book__wrapper {
+        flex-direction: column; 
+        gap: 30px;
+    }
+
+    .book__form-wrapper {
+        width: 100%;  
+    }
+
 }
+
+

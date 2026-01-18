@@ -1,5 +1,5 @@
 .gallery {
-    padding-top: clamp(1.875rem, 1.786rem + 5.95vw, 6.25rem)px;
+    padding-top: clamp(1.875rem, 1.786rem + 5.95vw, 6.25rem);
     padding-bottom: 20px;
 }
 
@@ -12,5 +12,4 @@
     text-align: center;
     margin-bottom: clamp(1.25rem, 1.173rem + 5.1vw, 5rem);
     
-    margin-top: 128px;
 }

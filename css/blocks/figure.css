@@ -1,6 +1,6 @@
 .figure {
     position: relative;
-    padding: 98px 0;
+    padding: clamp(1.875rem, 1.786rem + 5.95vw, 6.25rem) 0;
     font-weight: 600;
     font-size: 12vw;
     letter-spacing: 0.04em;

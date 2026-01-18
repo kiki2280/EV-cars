@@ -16,6 +16,7 @@
     
     -webkit-text-stroke: 5px var(--background-color3);
 }
+
 .figure__img {
     position: absolute;
     left: 50%;
@@ -33,4 +34,19 @@
     .figure__line2 {
         -webkit-text-stroke: 0px var(--background-color3);
     }
+}
+
+@media (min-width:2100px) {
+    .figure {
+        font-size: 236px;
+
+    }
+
+}
+@media (min-width:2400px) {
+    .figure {
+        font-size: 257px;
+
+    }
+
 }

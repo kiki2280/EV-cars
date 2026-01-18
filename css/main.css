@@ -14,6 +14,7 @@
 @import "./sections/power.css" ;
 @import "./sections/gallery.css" ;
 @import "./sections/book.css" ;
+@import "./sections/footer.css" ;
 
 /* blocks */
 @import "./blocks/nav.css" ;
@@ -30,6 +31,8 @@
 @import "./blocks/card-power.css" ;
 @import "./blocks/swiper.css" ;
 @import "./blocks/form.css" ;
+@import "./blocks/footer-top.css" ;
+@import "./blocks/footer-bottom.css" ;
 
 
  

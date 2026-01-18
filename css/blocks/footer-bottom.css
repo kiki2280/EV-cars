@@ -1,0 +1,31 @@
+.footer__bottom {
+
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 40px;
+}
+
+.footer__bottom__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px 24px;
+}
+
+.footer__bottom__number {
+    font-weight: 400;
+    font-size: clamp(1rem, 0.997rem + 0.17vw, 1.125rem);
+    color: var(--background-color1) ;
+}
+
+.footer__bottom__links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 24px ; 
+}
+
+.footer__bottom__link {
+    font-weight: 400;
+    font-size: clamp(1rem, 0.997rem + 0.17vw, 1.125rem);
+    color: var(--background-color1);
+}
